@@ -10,4 +10,9 @@ public class TestController {
     public String actionTest() {
         return "test action";
     }
+
+    @GetMapping("/test/change")
+    public String actionChange() {
+        return "test change";
+    }
 }
